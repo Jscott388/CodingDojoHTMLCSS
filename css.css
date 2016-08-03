@@ -1,0 +1,116 @@
+#container{
+    width: 970px;
+    margin: 0px auto;
+}
+#header{
+	height: 100px;
+	background-color: darkred;
+	overflow: hidden;
+}
+#header img, h1, #rightheader{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+}
+#header li{
+	display: inline;
+}
+#header h1{
+	font-family: "Lucida Console";
+	font-size: 1.5em;
+	color: white;
+	margin-top: 35px;
+}
+#rightheader{
+	margin-left: 55px;
+}
+#rightheader a{
+	color: yellow;
+}
+#rightheader{
+	color: white;
+}
+#rightheader form{
+	margin-left: 140px;
+}
+#rightheader input[type=submit]{
+	color: white;
+	background-color: darkred;
+	border: 1px solid white;
+}
+#nav_bar{
+	height:30px;
+	background-color: lightgrey;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+#nav_bar a{
+	font-family: Sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: .750em;
+	text-decoration: none;
+}
+#nav_bar li{
+	display: inline;
+	padding-bottom: 5px;
+}
+#nav_bar ul li:after{
+	content: "|";
+	padding: 10px;
+}
+#nav_bar li:last-child:after {
+  content: '';
+}
+#container{
+	padding-top: 20px;
+}
+#side_bar, #content{
+	display: inline-block;
+	vertical-align: top;
+}
+#side_bar{
+	width: 175px;
+	height: 220px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	padding: 20px 10px 0px 20px;
+	margin: 20px 5px 20px 20px;
+}
+#side_bar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#side_bar li{
+	padding-left: 16px;
+}
+#side_bar li:before{
+	content: "\00bb";
+	padding-right: 5px;
+}
+#side_bar a{
+	color: darkred;
+}
+#content{
+	width: 700px;
+	display: inline-block;
+}
+#content h1, h2, a{
+	color: darkred;
+}
+#content h1{
+	font-size: 1.5em;
+	margin-top: 20px;
+}
+#content h2{
+	font-size: 1.3em;
+}
+#content h2, p{
+	padding-left: 10px;
+}
+.date{
+	font-weight: bold;
+}
